@@ -1,16 +1,16 @@
-"use strict"
+"use strict";
 /* -------------------------------------------------------
-    NODEJS EXPRESS | CLARUSWAY FullStack Team
+    FILE UPLOAD
 ------------------------------------------------------- */
 // app.use(upload.array('fieldName'))
 
-const multer = require('multer')
+const multer = require("multer");
 
 module.exports = multer({
-    storage: multer.diskStorage({
-        destination: './upload/',
-        filename: function(req, file, returnCallback) {
-            returnCallback(null, file.originalname)
-        }
-    })
-})
+  storage: multer.diskStorage({
+    destination: "./upload/",
+    filename: function (req, file, returnCallback) {
+      returnCallback(null, file.originalname);
+    },
+  }),
+});

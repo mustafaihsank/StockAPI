@@ -100,6 +100,7 @@ module.exports = {
       : { _id: req.user._id };
 
     if (!req.user.isAdmin) {
+      delete req.body.isActive;
       delete req.body.isStaff;
       delete req.body.isAdmin;
     }

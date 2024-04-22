@@ -1,6 +1,6 @@
 "use strict";
 /* -------------------------------------------------------
-    NODEJS EXPRESS | CLARUSWAY FullStack Team
+    AUTHENTICATION MIDDLEWARE
 ------------------------------------------------------- */
 // app.use(authentication):
 

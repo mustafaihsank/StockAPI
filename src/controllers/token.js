@@ -1,6 +1,6 @@
 "use strict";
 /* -------------------------------------------------------
-    NODEJS EXPRESS | CLARUSWAY FullStack Team
+    TOKEN CONTROLLER
 ------------------------------------------------------- */
 // Token Controller:
 const Token = require("../models/token");
