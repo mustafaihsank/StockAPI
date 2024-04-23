@@ -204,6 +204,7 @@ module.exports = async function () {
         "name": "Tommy",
         "categoryId": "65343222b67e9681f937f203",
         "brandId": "65343222b67e9681f937f107",
+        "price": "99.99",
         "quantity": 0
     })
     await Product.create({
@@ -218,6 +219,7 @@ module.exports = async function () {
         "name": "Cola Turka",
         "categoryId": "65343222b67e9681f937f202",
         "brandId": "65343222b67e9681f937f123",
+        "price": "199.99",
         "quantity": 750
     })
     await Product.create({
@@ -225,6 +227,7 @@ module.exports = async function () {
         "name": "Rondo",
         "categoryId": "65343222b67e9681f937f201",
         "brandId": "65343222b67e9681f937f123",
+        "price": "299.99",
         "quantity": 900
     })
     await Product.create({
@@ -232,6 +235,7 @@ module.exports = async function () {
         "name": "Iphone 14 Pro",
         "categoryId": "65343222b67e9681f937f204",
         "brandId": "65343222b67e9681f937f131",
+        "price": "399.99",
         "quantity": 0
     })
 
